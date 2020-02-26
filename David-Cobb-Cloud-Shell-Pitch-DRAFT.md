@@ -1,0 +1,60 @@
+# Project Audition by David Cobb
+
+## Summary
+
+I propose a series of projects using Azure Cloud Shell, where the student builds and tests their cloud infrastructure from the Azure Cloud Shell.
+
+Skills and tools used would include:
+* PowerShell
+  * [AZ Module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-3.5.0)
+  * [Pester Module](https://github.com/pester/Pester)
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)
+* git
+* ARM Templates
+* Azure Policy
+* .NET Core, `dotnet new`, etc.
+
+Each project focuses on a set of cloud infrastructure functionality. The starting point of each project is either from scratch, or the deployment of an ARM Template shared on github.
+
+Here is an outline, to be discussed, of how the first few projects and their tasks might look from a high level. Once we confirm the direction is good can flesh out this outline to more granular tasks.
+
+* Cloud Shell Setup
+  * Initial Login
+  * Explore Azure:\ SHiPS provider
+  * Explore clouddrive
+  * (Create and mount additional drive from Azure)
+  * Create working folder
+  * Edit projectSettings.ps1
+  * VERIFY: Download and run pester test?
+* Create VNet
+  * Examine syntax
+  * Explore VNet options
+  * Create VNet
+  * Create Subnet
+  * Configure
+  * Save script
+  * Export template
+  * ( Recreate VNet from template)
+  * VERIFY: Download and run pester test?
+* Create VM
+  * Examine syntax
+  * Explore VM options
+  * Create VM
+* Create Network Security Group (NSG)
+  * Examine syntax
+  * Create NSG
+  * Apply NSG to Subnet & VM
+  * VERIFY: Test access to VM
+
+....
+
+Future project outline may look like:
+
+* Troubleshooting network security groups
+  * Deploy problem ARM template that provisions VNnet, subnets, VMs, NSG
+  * Deploy & run pester tests that fail due to blocked port(s) or exposed services
+  * Investigate logs, network watcher, etc
+  * Investigate NSG
+  * Modify NSG
+  * Test manually, then re-run pester tests
+
