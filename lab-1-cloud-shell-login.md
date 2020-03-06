@@ -18,6 +18,8 @@ If this is your first time in the shell you will be prompted to choose Bash or P
 
 Choose your desired **subscription**, and a nearby **region** to host your cloud shell storage. For your new resource group, storage account, and file share fields, ensure the **Create new** radio button is selected, and enter desired values each field. (Alternately, you may choose to use existing resources if previously created.)
 
+> ![Create storage dialog](https://i.imgur.com/Ip0TCfR.png)
+
 Click the **Create storage** button to proceed.
 
 If any provided values are invalid, an error is displayed that describes acceptable characters for each field. For example, ensure your *storage account name is unique and composed of lowercase letters and numbers*. Once you have made your corrections, click **Create storage** to continue.
