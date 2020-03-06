@@ -24,9 +24,9 @@ Click the **Create storage** button to proceed.
 
 If any provided values are invalid, an error is displayed that describes acceptable characters for each field. For example, ensure your *storage account name is unique and composed of lowercase letters and numbers*. Once you have made your corrections, click **Create storage** to continue.
 
-Note: Naming things in Azure involves learning what rules apply to which types of resources. Lowercase letters and numbers work for most situations. Review these docs pages for more information:
-* [Naming rules and restrictions for Azure resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules)
-*  [Recommended naming and tagging conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging) 
+> Note: Naming things in Azure involves learning what rules apply to which types of resources. Lowercase letters and numbers work for most situations. Review these docs pages for more information:
+> * [Naming rules and restrictions for Azure resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules)
+> *  [Recommended naming and tagging conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging) 
 
 > Test: If successful, cloud shell will display.
 
