@@ -2,10 +2,10 @@
 
 ## Summary
 
-I propose a series of projects using Azure Cloud Shell, where the student builds and tests their cloud infrastructure from the Azure Cloud Shell.
+I propose a series of projects using Azure Cloud Shell, where the student builds and tests their cloud infrastructure from the Azure Cloud Shell and Visual Studio Code.
 
-Skills and tools used would include:
-* PowerShell
+Skills and to include:
+* PowerShell 7
   * [AZ Module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-3.5.0)
   * [Pester Module](https://github.com/pester/Pester)
 * [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)
@@ -16,10 +16,10 @@ Skills and tools used would include:
 
 Each project focuses on a set of cloud infrastructure functionality. The starting point of each project is either from scratch, or the deployment of an ARM Template shared on github.
 
-Here is an outline, to be discussed, of how the first few projects and their tasks might look from a high level. Once we confirm the direction is good can flesh out this outline to more granular tasks.
+Here is an outline, to be discussed, of how the first few projects and their tasks might look from a high level.
 
 * Cloud Shell Setup
-  * Initial Login
+  * [Initial Login and cloud drive setup](./lab-1-cloud-shell-login.md)
   * Explore Azure:\ SHiPS provider
   * Explore clouddrive
   * (Create and mount additional drive from Azure)
