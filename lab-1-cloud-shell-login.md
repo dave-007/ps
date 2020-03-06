@@ -50,7 +50,7 @@ Azure:/
 PS Azure:\>
 ```
 
-> Test 2: Type ``Get-AzRMStorageShare -ResourceGroupName rgCloudShell -StorageAccount storcloudshell123 `,replacing **rgCloudShell** with your resource group name and **storcloudshell123** with your storage account name, to view the file share you just created.
+> Test 2: Type `Get-AzRMStorageShare -ResourceGroupName rgCloudShell -StorageAccount storcloudshell123 `,replacing **rgCloudShell** with your resource group name and **storcloudshell123** with your storage account name, to view the file share you just created.
 
 ```ps
 
