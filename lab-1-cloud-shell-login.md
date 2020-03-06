@@ -16,9 +16,9 @@ If this is your first time in the shell you will be prompted to choose Bash or P
 
 
 
-Choose your desired **subscription**, and a nearby **region** to host your cloud shell storage. For your new resource group, storage account, and file share fields, ensure the **Create new** radio button is selected, and enter desired values each field. (Alternately, you may choose to use existing resources if previously created.)
+Choose your desired **subscription**, and a nearby **region** to host your cloud shell storage. For your new **resource group**, **storage account**, and **file share** fields, ensure the **Create new** radio button is selected, and enter desired values each field. (Alternately, you may choose to use existing resources if previously created.)
 
-> ![Create storage dialog](https://i.imgur.com/Ip0TCfR.png)
+> ![Create storage dialog](https://i.imgur.com/W3f3M0u.png)
 
 Click the **Create storage** button to proceed.
 
