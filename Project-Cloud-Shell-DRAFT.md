@@ -20,11 +20,15 @@ Here is an outline, to be discussed, of how the first few projects and their tas
 
 * Cloud Shell Setup
   * [Initial Login and cloud drive setup](./lab-1-cloud-shell-login.md)
-  * Explore Azure:\ SHiPS provider
-  * Explore clouddrive
-  * (Create and mount additional drive from Azure)
-  * Create working folder
-  * Edit projectSettings.ps1
+  * Use Code Editor to edit projectSettings.ps1
+    * Explore clouddrive
+    * Create working folder
+    * Edit projectSettings.ps1
+    * (Create and mount additional drive from Azure)
+* Using git from Cloud Shell
+  * Clone project repo to local folder
+  * Review ARM Template
+  * Deploy ARM Template
   * VERIFY: Download and run pester test?
 * Create VNet
   * Examine syntax
@@ -40,12 +44,14 @@ Here is an outline, to be discussed, of how the first few projects and their tas
   * Examine syntax
   * Explore VM options
   * Create VM
+  * VERIFY: Download and run pester test?
 * Create Network Security Group (NSG)
   * Examine syntax
   * Create NSG
   * Apply NSG to Subnet & VM
   * VERIFY: Test access to VM
-
+  * VERIFY: Download and run pester test?
+* Explore Azure:\ SHiPS provider
 ....
 
 Future project outline may look like:
@@ -57,4 +63,3 @@ Future project outline may look like:
   * Investigate NSG
   * Modify NSG
   * Test manually, then re-run pester tests
-

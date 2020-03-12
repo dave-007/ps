@@ -10,11 +10,7 @@
 
 If this is your first time in the shell you will be prompted to choose Bash or PowerShell, **choose PowerShell**. You are then prompted create your cloud drive storage. Rather than accepting the defaults by clicking the **Create storage** button, lick the **Show advanced settings** link.
 
-
-
 > ![Prompt to create Azure file share](https://i.imgur.com/xWWDFl0.png)
-
-
 
 Choose your desired **subscription**, and a nearby **region** to host your cloud shell storage. For your new **resource group**, **storage account**, and **file share** fields, ensure the **Create new** radio button is selected, and enter desired values each field. (Alternately, you may choose to use existing resources if previously created.)
 
@@ -50,7 +46,7 @@ Azure:/
 PS Azure:\>
 ```
 
-> Test 2: Type `Get-AzRMStorageShare -ResourceGroupName rgCloudShell -StorageAccount storcloudshell123 `,replacing **rgCloudShell** with your resource group name and **storcloudshell123** with your storage account name, to view the file share you just created.
+> Test 2: Type `Get-AzRMStorageShare -ResourceGroupName rgCloudShell -StorageAccount storcloudshell123`,replacing **rgCloudShell** with your resource group name and **storcloudshell123** with your storage account name, to view the file share you just created.
 
 ```ps
 
